@@ -1,0 +1,71 @@
+﻿body {
+   font-family: Lucida Bright;
+   color:black;
+   text-align: left;
+   background-color: lightGray;
+   width: 100%;
+}
+
+h1 {
+   font-size:50px;
+   color:#E8ADAA;
+   background:black;
+   padding:30px;
+   text-align: center;
+}
+
+h1 a{
+	color: #E8ADAA;
+}
+a {
+	text-decoration:none;
+}
+h1 a:hover {
+	color:blue;
+}
+
+pa {
+	align: right;
+}
+
+t1 {
+	align: center;
+}
+table {
+   
+}
+
+th {
+   align: left;
+}
+
+p {
+   width: 80%;
+   align: center;
+   padding: 40px;
+   font-size:20px;
+   height: 600px;
+}
+
+
+ul {
+   height: 600px;
+   padding: 40px;
+   width: 200px;
+   background: white;
+   text-align: left;
+   list-style-type: none;
+}
+
+li a {
+   color: black;
+   padding: 10px;
+   display: block;
+   text-decoration: none;
+   width: 100%;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
