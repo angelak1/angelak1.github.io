@@ -64,6 +64,19 @@ li a {
    text-decoration: none;
    width: 100%;
 }
+p a {
+	color: 454545;
+}
+
+a:visited{
+	color: 454545;
+}
+
+a:link {
+	color:454545;
+}
+
+
 
 li a:hover {
     background-color: #555;
