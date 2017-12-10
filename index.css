@@ -1,61 +1,62 @@
-﻿body {
-   font-family: Lucida Bright;
+body {
+   font-family: Arial;
    color:black;
    text-align: left;
-   background-color: lightGray;
+   background-color: white;
    width: 100%;
 }
 
 h1 {
-   font-size:50px;
-   color:#E8ADAA;
+   font-size:150px;
+   color:white;
    background:black;
-   padding:30px;
+   padding-top:80px;
+   padding-bottom:80px;
+   width:100%;
+   height:300;
    text-align: center;
+   position:fixed;
 }
 
-h1 a{
-	color: #E8ADAA;
+h2 {   
+    color: black;
 }
+
 a {
 	text-decoration:none;
-}
-h1 a:hover {
-	color:blue;
 }
 
 pa {
 	align: right;
 }
 
-t1 {
-	align: center;
-}
-table {
-   
-}
 
-th {
-   align: left;
+p1 {
+	font-size: 24px;
+	text-decoration: underline;
 }
 
 p {
    width: 80%;
+   vertical-align: bottom;
    align: center;
    padding: 40px;
    font-size:20px;
-   height: 750px;
+   height: 600px;
+   padding-top:400px;
 }
 
 
 ul {
-   height: 750px;
-   padding: 40px;
+   height: 600px;
+   vertical-align:  top;
    width: 200px;
    background: white;
    text-align: left;
    list-style-type: none;
+   padding-top: 20px;
 }
+
 
 li a {
    color: black;
@@ -68,17 +69,42 @@ p a {
 	color: 454545;
 }
 
-a:visited{
-	color: 454545;
+h1 a:visited {
+    color: white;
 }
-
-a:link {
-	color:454545;
-}
-
 
 
 li a:hover {
     background-color: #555;
     color: white;
+}
+
+h1 a:hover {
+    color: #99DCE7;
+    text-decoration:none;
+}
+
+.sidebar:active {
+    color: #99DCE7;
+}
+
+.sidebar {
+    position: fixed;
+    top:350px;
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.sidebar .nav {
+    margin-bottom: 20 px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: black;
 }
