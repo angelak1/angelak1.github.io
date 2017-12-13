@@ -37,7 +37,7 @@ p1 {
 }
 
 p {
-   width: 80%;
+   width: 90%;
    vertical-align: bottom;
    align: center;
    padding: 40px;
@@ -92,7 +92,7 @@ h1 a:hover {
     position: fixed;
     top:350px;
     background-color: black;
-    overflow-x: hidden;
+    overflow-x: auto;
     overflow-y: auto;
 }
 
