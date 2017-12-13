@@ -21,7 +21,44 @@
     </script>
   </head>
 
-  <body>  
+  
+  @media (min-width: 576px) { 
+  <body style="width: 95%;">
+  <h1 style="font-size: 100 px;"><a href="index.html">Angela M Kearns</a></h1>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Menu
+    </button>
+        <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="education.html">Education</a>
+            <a class="dropdown-item" href="work.html">Work Experience</a>
+            <a class="dropdown-item" href="contact.html">Contact Info</a>
+        </div>
+    </div>
+    
+    <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">	
+	  <p>Hello! Thank you for checking out my website. I programmed it
+	  using HTML and CSS. <br><br>
+	  I am Angela Kearns.
+	  I am a currently an undergraduate student at New Mexico State University. I am double majoring in
+	  Mathematics and Computer Science. For more information about my work as a 
+	  student please click on the Education tab on the left.<br><br>
+	  I am also actively involved in an outreach organization at my university called Young Women in Computer (YWiC).
+	  For more information on this please check out the Work Experience tab to the left.<br><br>
+	  Thank you again for perusing my website. You will also find my contact information is
+	  available by clicking the link to the left. Please feel free to contact me with any
+	  questions or information or any feedback on my website. <br><br>
+	  <pa> -Angela Kearns </pa><br>
+	  <img src="IMG_20160428_232806587.jpg" alt="Image" width="20%" align="right">
+	  
+</p>
+</main>
+  }
+
+  
+  @media (min-width: 768px) {
+  <body>
     <h1><a href="index.html"> Angela M Kearns </a></h1>  
       <div class="container-fluid">
       <div class="row">
@@ -42,7 +79,7 @@
           </ul>
       </nav>
       
-	 <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">	
+      <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">	
 	  <p>Hello! Thank you for checking out my website. I programmed it
 	  using HTML and CSS. <br><br>
 	  I am Angela Kearns.
@@ -59,6 +96,11 @@
 	  
 </p>
 </main>
+      }
+      
+      
+      
+	 
 <footer>%nbsp<a href="https://github.com/angelak1/"><img src="GitHub-Mark-Light-32px.png"></a>%nspb<a href="https://linkedin.com/in/angela-kearns"><img src="In-White-34px-R.png"></a>%nbsp</footer>
   </body>
 
