@@ -1,107 +1,21 @@
+html {
+  position: relative;
+  min-height: 100%
+}
+
+
 body {
-   font-family: Arial;
-   color:black;
-   text-align: left;
-   background-color: white;
-   width: 100%;
-}
-
-h1 {
-   font-size:150px;
-   color:white;
-   background:black;
-   padding-top:80px;
-   padding-bottom:80px;
-   width:100%;
-   height:300;
-   text-align: center;
-   position:fixed;
-}
-
-h2 {   
-    color: black;
-}
-
-a {
-	text-decoration:none;
-}
-
-pa {
-	align: right;
+  font-family: Arial;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  margin-left: 10%;
 }
 
 
-p1 {
-	font-size: 24px;
-	text-decoration: underline;
-}
-
-p {
-   width: 90%;
-   vertical-align: bottom;
-   align: center;
-   padding: 40px;
-   font-size:20px;
-   height: 600px;
-   padding-top:400px;
-}
-
-
-ul {
-   height: 600px;
-   vertical-align:  top;
-   width: 200px;
-   background: white;
-   text-align: left;
-   list-style-type: none;
-   padding-top: 20px;
-}
-
-
-li a {
-   color: black;
-   padding: 10px;
-   display: block;
-   text-decoration: none;
-   width: 100%;
-}
-p a {
-	color: 454545;
-}
-
-h1 a:visited {
-    color: white;
-}
-
-
-li a:hover {
-    background-color: #555;
-    color: white;
-}
-
-h1 a:hover {
-    color: #99DCE7;
-    text-decoration:none;
-}
-
-.sidebar:active {
-    color: #99DCE7;
-}
-
-.sidebar {
-    position: fixed;
-    top:350px;
-    background-color: black;
-    overflow-x: auto;
-    overflow-y: auto;
-}
-
-.sidebar .nav {
-    margin-bottom: 20 px;
-}
 
 footer {
   position: fixed;
+  right: 0;
   bottom: 0;
   width: 100%;
   height: 60px; /* Set the fixed height of the footer here */
